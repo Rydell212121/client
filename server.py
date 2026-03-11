@@ -27,7 +27,7 @@ PORT = 8080
 CONNECTIONS = 1
 CLIENT_TIMEOUT = 1000      # 3
 
-STORAGE = "C:\\course_67\\internet\\storage\\"  # Ограничим доступ клиенту этим.
+STORAGE = "C:\\Users\\PyHS\\Desktop\\storage"  # Ограничим доступ клиенту этим.
 
 
 def fix_path_header(headers: dict[str, str]):
@@ -246,3 +246,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
